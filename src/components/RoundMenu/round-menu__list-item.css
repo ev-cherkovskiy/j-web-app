@@ -1,0 +1,91 @@
+.round-menu__list-item {
+    margin: 0;
+    background-color: pink;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+    opacity: .7;
+    transition: opacity .3s ease, transform .5s ease, box-shadow .3s ease;
+    box-shadow: 2px 2px 10px lightgray;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.round-menu__list-item:hover {
+    opacity: 1;
+}
+
+.round-menu__list-item:active {
+    box-shadow: 3px 3px 10px lightgray;
+}
+
+.round-menu__list-item:nth-child(1) {
+    transform: translate(calc(100px), calc(100px * 0)) rotate(0deg);
+    background-color: #ec0f0f;
+    background-image: url(../../images/login.png);
+
+}
+
+.round-menu__list-item:nth-child(2) {
+    transform: translate(calc(100px * 0.5), calc(-100px * 0.86602540378));
+    background-color: #d83737;
+    background-image: url(../../images/add-user.png);
+}
+
+.round-menu__list-item:nth-child(3) {
+    transform: translate(calc(-100px * 0.5), calc(-100px * 0.86602540378)) rotate(0deg);
+    background-color: #e66161;
+    background-image: url(../../images/information.png);
+}
+
+.round-menu__list-item:nth-child(4) {
+    transform: translate(calc(-100px), calc(-100px * 0)) rotate(0deg);
+    background-color: #B5B5B5;
+    background-image: url(../../images/badge.png);
+}
+
+.round-menu__list-item:nth-child(5) {
+    transform: translate(calc(-100px * 0.5), calc(100px * 0.86602540378)) rotate(0deg);
+    background-color: #CFCFCF;
+    background-image: url(../../images/setting.png);
+}
+
+.round-menu__list-item:nth-child(6) {
+    transform: translate(calc(100px * 0.5), calc(100px * 0.86602540378)) rotate(0deg);
+    background-color: #E8E8E8;
+    background-image: url(../../images/coin.png);
+}
+
+.round-menu__list-item_closed:nth-child(1) {
+    transform: translate(0px, 0px);
+}
+
+.round-menu__list-item_closed:nth-child(2) {
+    transform: translate(0px, 0px);
+}
+
+.round-menu__list-item_closed:nth-child(3) {
+    transform: translate(0px, 0px);
+}
+
+.round-menu__list-item_closed:nth-child(4) {
+    transform: translate(0px, 0px);
+}
+
+.round-menu__list-item_closed:nth-child(5) {
+    transform: translate(0px, 0px);
+}
+
+.round-menu__list-item_closed:nth-child(6) {
+    transform: translate(0px, 0px);
+}
+
+.round-menu__list-item_closed {
+    opacity: 0;
+}

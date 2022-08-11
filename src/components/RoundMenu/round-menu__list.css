@@ -1,0 +1,40 @@
+.round-menu__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: visibility .5s ease, transform 1s ease;
+}
+
+.round-menu__list_closed {
+    visibility: hidden;
+}
+
+.round-menu__list_rotation_1 {
+    transform: rotate(90deg);
+}
+
+.round-menu__list_rotation_2 {
+    transform: rotate(150deg);
+}
+
+.round-menu__list_rotation_3 {
+    transform: rotate(-150deg);
+}
+
+.round-menu__list_rotation_4 {
+    transform: rotate(-90deg);
+}
+
+.round-menu__list_rotation_5 {
+    transform: rotate(-30deg);
+}
+
+.round-menu__list_rotation_6 {
+    transform: rotate(30deg);
+}

@@ -1,0 +1,41 @@
+.main-page-section {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 40px;
+    height: 60vh;
+    box-shadow: 5px 5px 20px lightgray;
+    opacity: 1;
+    transition: opacity .3s ease .4s, background-color .3s ease;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.main-page-section_closed {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.main-page-section_color_1 {
+    background-color: 	#ec0f0fab;
+}
+
+.main-page-section_color_2 {
+    background-color: 	#d83737ab;
+}
+
+.main-page-section_color_3 {
+    background-color: #e66161ab;
+}
+
+.main-page-section_color_4 {
+    background-color: 	#B5B5B5ab;
+}
+
+.main-page-section_color_5 {
+    background-color: #CFCFCFab;
+}
+
+.main-page-section_color_6 {
+    background-color: #E8E8E8ab;
+}
